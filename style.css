@@ -1421,15 +1421,13 @@ table td{
     .main_form{
         margin-left: 200px;
     }
-
-    @media (max-width: 768px) {
     .customer_claims {
         padding-block: 250px;
         justify-content: center;
         align-items: center;
         margin-left: 100px;
     }
-}
+
 }
 
 
