@@ -1754,6 +1754,8 @@ table td{
     flex-direction: column;
     align-items: center;
     /* gap: 15px; */
+    width:100vw;
+    margin-left: calc(-50vw + 50%); /* break out of container */
   }
 
    .logo img {
