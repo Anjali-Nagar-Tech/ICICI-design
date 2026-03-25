@@ -1306,7 +1306,7 @@ table td{
 
 /* Responsive media queries: */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
     .insurance_considerations_cards{
          grid-template-columns: repeat(1,1fr);
     }
@@ -1428,10 +1428,10 @@ table td{
         margin-left: 100px;
     }
 
-}
+} */
 
 
-@media (max-width: 650px){
+/* @media (max-width: 650px){
     .ins_consider_card{
         max-width: 400px;
     }
@@ -1443,15 +1443,15 @@ table td{
     }
     .types_car_insurance_content{
         /* width:80%; */
-        max-width: fit-content;
-    }
-     *{
+        /* max-width: fit-content;
+    } */
+     /*{
         width:100%;
         max-width: fit-content;
     }
-}
+} */
 
-@media(max-width: 1161px){
+/* @media(max-width: 1161px){
     
     .insurance_considerations_cards{
             display: flex;
@@ -1463,9 +1463,9 @@ table td{
         width:100%;
         max-width: fit-content;
     }
-}
+} */
 
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){
 
         .outer_form_element{
             padding-left: 140px;
@@ -1493,9 +1493,9 @@ table td{
         width:100%;
         max-width: fit-content;
     }
-}
+} */
 
-@media (max-width: 480px){
+/* @media (max-width: 480px){
     .inner_insurance_hero p img {
     max-height: 40px;
 }
@@ -1519,10 +1519,10 @@ table td{
     .main-container{
     width:100%;
     /* max-width:1443px; */
-    margin:0 auto;
+    /* margin:0 auto;
     padding:0 20px;
-}
-
+} */
+/* 
     .types_car_insurance_content{
         width: 50%;
     }
@@ -1538,48 +1538,15 @@ table td{
     }
     .types_car_insurance_content{
         max-width: 40%;
-    }
-    .inner_types_car_insurance{
-        justify-content: center;
-    }
-    *{
-        width:100%;
-        max-width: fit-content;
-    }
-    .uppernav{
-        flex-direction: column;
-        flex-wrap: wrap;
-        /* font-size: 10px; */
-        padding: 0;
-        margin: 0;
-    }
-    .contact{
-        display:flex;
-        font-size: 10px;
+    } */
 
-    }
+/* } */ 
 
-    .links.upper-nav-link-list li select option{
-        font-size: 10px;
-    }
-
-    .main_form{
-        width:100%;
-    }
-    .form_element{
-        width:100%;
-    }
-    .outer_form_element{
-        width:100%;
-        max-width: 400px;
-    }
-}
-
-@media (max-width: 1161px){
+/* @media (max-width: 1161px){
     .review_policy{
         display:none;
     }
-}
+} */
 
 /* Responsive media queries: */
 /* 
@@ -1691,6 +1658,170 @@ table td{
 }
 } */
 
+
+@media(max-width:480px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    .main-container{
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+
+  }
+  .nav-container{
+    width: 100%;
+    /* max-width: 100%; */
+    padding: 10px;
+    /* margin: 0 auto; */
+  }
+ 
+  .claim_card{
+    margin: 0;
+  }
+ 
+  .customer_claims_cards{
+    display:flex;
+    flex-direction: column;
+  }
+  .main_car_ins_content{
+    display:flex;
+    flex-direction: column;
+  }
+  .insurance_considerations_cards {
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  .main_review_section{
+    display:flex;
+    flex-direction: column;
+  }
+  .reviews{
+    display: flex;
+    flex-direction: column;
+  }
+  .types_car_insurance_content{
+    display:flex;
+    flex-direction: column;
+  }
+  .ins_consider_card{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  .inner_hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+    .upper-nav-contact-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+    .upper-nav-contact-list li {
+    padding: 5px;
+    font-size: 12px;
+  }
+      .upper-nav-contact-list li img{
+        max-width: 20px;
+      }
+  .upper-nav-link-list{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
+   .upper-nav-link-list li {
+    /* flex-direction: column; */
+    gap: 8px;
+  }
+
+  .select-item {
+    width: 100%;
+    text-align: center;
+  }
+  .upper-nav-link-list li select{
+    padding-inline: 0;
+    margin-inline: 0;
+    font-size: 12px;
+  }
+
+   .uppernav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+      padding-right: 0;
+  }
+
+   .lower-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 15px; */
+  }
+
+   .logo img {
+    max-width: 120px;
+  }
+
+  .lower-nav-link-list {
+    padding: 0;
+  }
+    .lower-nav-link-list li {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    align-items: center;
+  }
+
+  .select-item1 {
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+  }
+  .login {
+    text-align: center;
+  }
+  .outer_form_element{
+    width:auto;
+  }
+  .review_policy{
+    margin-inline:0;
+  }
+  .popular_searches{
+    display:flex;
+    flex-direction: column;
+  }
+  .apostrophe{
+    padding-inline: 0;;
+  }
+  .inner_popular_searches{
+    display:flex;
+    flex-direction: column;
+  }
+  .actual_product_table{
+    font-size: 8px;
+  }
+  .main_footer_start{
+    flex-wrap: wrap;
+  }
+  .faq_content{
+    padding-inline: 0;
+  }
+  .ins_calc_head{
+    font-size: 30px;
+  }
+}
 
 
 
