@@ -1692,7 +1692,7 @@ table td{
     .main-container{
     width: 100%;
     max-width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 0;
 
   }
@@ -1709,16 +1709,16 @@ table td{
     .upper-nav-contact-list {
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px;
     margin: 0;
     padding: 0;
   }
     .upper-nav-contact-list li {
-    padding: 5px;
-    font-size: 12px;
+    font-size: 11px;       /* smaller text */
+  padding: 2px 4px; 
   }
       .upper-nav-contact-list li img{
-        max-width: 20px;
+        max-width: 14px;
       }
   .upper-nav-link-list{
     flex-direction: column;
@@ -1744,8 +1744,9 @@ table td{
    .uppernav {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
       padding-right: 0;
+      margin: 0;
   }
 
    .lower-nav {
