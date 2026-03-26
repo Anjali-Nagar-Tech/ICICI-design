@@ -2629,6 +2629,330 @@ footer{
 }
 }
 
+@media (max-width: 820px){
+
+  body{
+    padding: 0;
+    margin: 0;
+    
+  }
+
+  .main-container{
+    width: 100%;
+    padding: 0 15px;
+
+  }
+
+  
+
+  .uppernav{
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .upper-nav-contact-list{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .upper-nav-contact-list li{
+    font-size: 18px;
+  }
+
+  .upper-nav-link-list{
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .upper-nav-link-list li select{
+    font-size: 20px;
+  }
+
+  .lower-nav{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+
+  .logo img{
+    max-width: 140px;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  .menu{
+    display: none;
+    width: 100%;
+  }
+  .login{
+    font-size: 20px;
+  }
+  .menu.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .lower-nav-link-list{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  
+
+  .insurance_hero{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .car_insurance{
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .price_para{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .below_price_para{
+    text-align: center;
+  }
+
+  .inner_insurance_hero p{
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .image-div img{
+    width: 80%;
+    height: auto;
+  }
+
+  .main_form{
+    width: 100%;
+  }
+
+  .outer_form_element{
+    width: 100%;
+  }
+
+  .form_element form input,
+  .form_element form button{
+    width: 100%;
+  }
+
+  
+
+  .customer_claims_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .claim_card{
+    width: 100%;
+    padding: 15px;
+  }
+
+  .customer_claims h2{
+    font-size: 24px;
+  }
+
+
+
+  .inner_about_car{
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .about_car_insurance_image img{
+    max-width: 80%;
+  }
+
+  .about_car_insurance_content{
+    width: 100%;
+  }
+
+ 
+
+  .types_car_insurance_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .main_car_ins_content{
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .car_insurance_content_para p{
+    font-size: 14px;
+  }
+
+
+
+  .ins_vs_ins_table{
+    overflow-x: auto;
+  }
+
+  .ins_vs_ins_table table{
+    width: 100%;
+  }
+
+ 
+
+  .steps_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .step_card{
+    width: 100%;
+  }
+
+ 
+
+  .inner_content{
+    flex-direction: column;
+  }
+
+  .inner_content li{
+    width: 100%;
+  }
+
+  .apostrophe{
+    padding-inline: 0;
+  }
+
+  .insurance_considerations_cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ins_consider_card{
+    flex-direction: column;
+  }
+
+ 
+
+  .ins_calc_content{
+    flex-direction: column;
+  }
+
+  .inner_calc_table{
+    overflow-x: auto;
+  }
+
+ 
+
+  .quest_and_ans .switch_buttons_for_tab{
+    overflow-x: auto;
+  }
+
+  .faq_question h4{
+    font-size: 15px;
+  }
+
+  .faq_ans{
+    font-size: 14px;
+  }
+
+ 
+
+  .main_review_section{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .reviews{
+    flex-direction: column;
+  }
+
+  .review_card{
+    width: 100%;
+  }
+
+
+  .footer_nav{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer_nav_links{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main_footer_start{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_logo_and_content{
+    text-align: center;
+  }
+
+  .reviews button{
+    flex-direction: column;
+  }
+  .insurance_considerations_cards{
+    grid-template-columns: revert;
+  }
+  .ins_calc_content1{
+    width:100%;
+  }
+  .customer_claims{
+    height: auto;
+  }
+      .types_car_insurance_content{
+        display:flex;
+      }
+
+      .main_car_ins_content{
+        max-height: 1000px;
+      }
+
+      .inner_popular_searches{
+        flex-direction: column;
+      }
+
+      .select-item1{
+        font-size: 18px;
+      }
+          .logo img {
+        max-width: 200px;
+        max-height: 100px;
+    }
+    .car_insurance{
+        font-size: 40px;
+    }
+        .price_para{
+            font-size: 28px;
+        }
+        .inner_insurance_hero p{
+            font-size: 20px;
+        }
+        .form_element{
+            font-size: 20px;
+        }
+
+            .form_element form input, .form_element form button {
+        width: 100%;
+        font-size: larger;
+    }
+}
+
 
 
 
