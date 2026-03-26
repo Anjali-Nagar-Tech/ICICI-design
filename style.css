@@ -2629,16 +2629,18 @@ footer{
 }
 }
 
-@media (max-width: 820px){
+@media (min-width:760px) and (max-width: 820px){
 
   body{
     padding: 0;
     margin: 0;
+    
   }
 
   .main-container{
     width: 100%;
     padding: 0 15px;
+
   }
 
   
@@ -2646,7 +2648,7 @@ footer{
   .uppernav{
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+   
   }
 
   .upper-nav-contact-list{
@@ -2656,7 +2658,7 @@ footer{
   }
 
   .upper-nav-contact-list li{
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .upper-nav-link-list{
@@ -2665,7 +2667,7 @@ footer{
   }
 
   .upper-nav-link-list li select{
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .lower-nav{
@@ -2686,7 +2688,9 @@ footer{
     display: none;
     width: 100%;
   }
-
+  .login{
+    font-size: 20px;
+  }
   .menu.active{
     display: flex;
     flex-direction: column;
@@ -2922,6 +2926,31 @@ footer{
       .inner_popular_searches{
         flex-direction: column;
       }
+
+      .select-item1{
+        font-size: 18px;
+      }
+          .logo img {
+        max-width: 200px;
+        max-height: 100px;
+    }
+    .car_insurance{
+        font-size: 40px;
+    }
+        .price_para{
+            font-size: 28px;
+        }
+        .inner_insurance_hero p{
+            font-size: 20px;
+        }
+        .form_element{
+            font-size: 20px;
+        }
+
+            .form_element form input, .form_element form button {
+        width: 100%;
+        font-size: larger;
+    }
 }
 
 
