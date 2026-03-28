@@ -1738,16 +1738,17 @@ table td{
 .steps_cards {
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  /* gap: 15px; */
 }
 
 .step_card {
   width: 100%;
-  max-width: 100%;
+  max-width: fit-content;
   height: auto;   
-  padding: 15px;
+  /* padding: 15px; */
    border-radius: 12px;
   transition: all 0.3s ease;
+  padding: 10px;
 }
 
 .step_card:hover {
@@ -1772,6 +1773,10 @@ table td{
   font-size: 13px;
   line-height: 1.5;
 }
+
+    .inner_steps_for_insurance{
+      padding-inline: 0;
+    }
 
 .steps_foot {
   font-size: 13px;
@@ -1806,6 +1811,7 @@ table td{
 }
 .inner_content {
   flex-direction: column;
+  padding-inline: 0;
 }
 
 .inner_content li {
@@ -1819,6 +1825,7 @@ table td{
 .tab_content_head {
   font-size: 14px;
   padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 .inc_excl_foot {
@@ -1838,7 +1845,7 @@ table td{
 
 
 .insurance_considerations {
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 .insurance_considerations_head {
@@ -1863,6 +1870,10 @@ table td{
   gap: 10px;
   border-radius: 12px;
   transition: all 0.3s ease;
+}
+
+.inner_insurance_considerations{
+  padding-inline: 0;
 }
 
 .ins_consider_card:hover {
@@ -1958,6 +1969,10 @@ table td{
 
 .search_content_head{
     font-size: 20px;
+}
+
+.search_content{
+  padding-inline: 0;
 }
 
 .search_anchor{
@@ -2066,13 +2081,21 @@ table td{
   .ins_consider_card{
     display:flex;
     flex-direction: column;
-    max-width: 300px;
+    /* max-width: 300px; */
   }
   .inner_hero {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
+
+      .contentarrows strong {
+        display: flex;
+        font-size: 11px;
+        /* padding-right: 10px; */
+        width: 100%;
+        padding: 0;
+    }
   /* .outer_form_element{
     width:auto;
   } */
@@ -2250,11 +2273,13 @@ footer{
   display: flex;
   flex-direction: column;  
   gap: 20px;
+  padding: 0;
 }
 
 
 .footer_logo_and_content{
-  text-align: center;
+  /* text-align: center; */
+  align-items: center;
 }
 
 .footer_logo_and_content img{
@@ -2282,7 +2307,13 @@ footer{
 .main_footer_second{
   text-align: center;
 }
+    footer {
+        padding: 20px 0;
+    }
 
+        .main_footer {
+        padding: 10px;
+    }
 
 .main_footer_second select{
   width: 100%;
@@ -2294,8 +2325,9 @@ footer{
 
 
 .main_footer{
-  padding: 10px 0;
+  padding: 10px;
 }
+
 
 #login_option{
   display:block;
@@ -2305,6 +2337,24 @@ footer{
   align-items: center;
   
 }
+
+    .logo_and_menu{
+      flex-direction: row-reverse;
+      
+    }
+        .car_insurance_image img{
+          width:100%;
+          object-fit: cover;
+        }
+    .car_insurance_image{
+      width:100%;
+    }
+
+    .main_footer_second {
+      padding-left: 0;
+    }
+
+ 
 
 }
 
