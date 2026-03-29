@@ -87,6 +87,7 @@ a{
     flex-wrap: wrap;
 }
 
+
 .hamburger {
   display: none;
   font-size: 24px;
@@ -118,6 +119,10 @@ a{
 
 .login{
     padding-block: 15px;
+}
+
+.loginoption{
+  display:none;
 }
 
 .logo_and_menu{
@@ -152,6 +157,8 @@ a{
     color: #282828;
 
 }
+
+
 .below_price_para{
     font-size: 12px;
     color:#6C6C6C;
@@ -1462,6 +1469,10 @@ table td{
     display: none;
   }
 
+  .loginoption{
+  display:block;
+}
+
   /* media queries for hero section */
 
   .insurance_hero {
@@ -1652,6 +1663,9 @@ table td{
 .right_arrow {
   display: none;
 }
+    .about_car_insurance_image img{
+      display:none;
+    }
 
   .main_car_ins_content{
     display:flex;
@@ -2202,6 +2216,9 @@ table td{
   line-height: 1.5;
 }
 
+.model_card{
+  width: 313px;
+}
 
 .reviewbutton{
   padding: 20px 0;

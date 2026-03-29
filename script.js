@@ -60,5 +60,13 @@ faqs.forEach(function(faq){
     menu.classList.toggle("active");
   }
 
+const options = document.querySelector(".select-item1 option");
+
+options.forEach((options,index)=>{
+    options.addEventListener("mouseover",()=>{
+        document.getElementsByClassName("select-item1").selectedIndex = index;
+    });
+})
+
 
 
