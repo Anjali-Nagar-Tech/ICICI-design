@@ -1963,6 +1963,17 @@ table td{
 .ins_calc_2_content {
   padding-top: 10px;
 }
+
+
+.car_insurance_image{
+  padding-inline: 0;
+}
+
+    .car_insurance_image img{
+        height:200px;
+        border-radius: 10px;
+    }
+
 .contentarrows {
   font-size: 13px;
   line-height: 1.5;
@@ -2129,6 +2140,10 @@ table td{
 .review_head{
   font-size: 20px;
   text-align: center;
+}
+
+.steps_cards{
+  padding-inline: 10px;
 }
 
 /* rating section */
